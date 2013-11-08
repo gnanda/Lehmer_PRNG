@@ -1,7 +1,8 @@
 Lehmer_PRNG
 ===========
 
-An implementation for a Lehmer pseudo-random number generator
+An implementation for a Lehmer pseudo-random number generator.  Ported from the C implementation to python, with some
+ syntactic sugar.
 
 Example usage:
     Creating a PRNG object:
