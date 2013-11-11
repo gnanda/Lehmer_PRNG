@@ -5,6 +5,7 @@ An implementation for a Lehmer pseudo-random number generator.  Ported from the 
  syntactic sugar.
 
 Example usage:
+
     Creating a PRNG object:
     Using the default seed and the initial stream 0:
         my_rng = LehmerRNG()
