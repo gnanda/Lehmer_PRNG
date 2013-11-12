@@ -69,7 +69,7 @@ class LehmerRNG(object):
         @return: A pseudo-random float, uniformly distributed between 0.0 and 1.0
         @rtype : float
         """
-        self.__num_draws[self.stream] += 1
+        self.__num_draws[self.stream] += 1 # Actual determination of cycling/overlapping is delayed for efficiency
 
         t = MULTIPLIER * (self.__seeds[self.stream] % Q_random) - R_random * (self.__seeds[self.stream] / Q_random)
         if t > 0:

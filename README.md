@@ -1,10 +1,12 @@
 Lehmer_PRNG
 ===========
 
-An implementation for a Lehmer pseudo-random number generator.  Ported from the C implementation to python, with some
- syntactic sugar.
+An implementation for a Lehmer pseudo-random number generator.  Ported, almost directly, from the C implementation to python, with some syntactic sugar.
 
 Example usage:
+    Importing the module:
+        from LehmerRNG import LehmerRNG
+
     Creating a PRNG object:
     Using the default seed and the initial stream 0:
         my_rng = LehmerRNG()
